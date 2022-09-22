@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+:root {   
+    --violeta: #722fac;
+    --rojofurte: #fe001b;   
+    --Negro: #000;
+    --FO: #2a2b2f;
+    --FA: #0e1538;
+    --FV:  #48426D;
+    --Blanco: #fff;
+    --Primario: #2bd2ff;
+    --Secundario: #ff0461;
+    --Tercero: #18d539;
+    --Cuarto: #101010;
+    --gray-drak: #1f212b;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --gray: #6c757d;
+    --primary: #007bff;
+    --secondary: #232c33;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #2b343b;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --boton: #363636;
+    --seleste: #2196f3;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--gray-drak);
+}
+
+.title{
+    display: flex;
+    max-width: 44%;
+    margin: auto;
+    justify-content: center;
+    font-size: 5rem;
+    font-family: 'Shadows Into Light', cursive;
+    background: linear-gradient(0deg, var(--gray-drak) 10%, var(--Blanco) 60%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+}
